@@ -6,7 +6,7 @@ const mongoose = require('mongoose')
 const path = require('path')
 
 app.use(cors({
-    origin:["http://localhost:3000","https://Exsercise-Tracker.onrender.com",]
+    origin:["http://localhost:3000","https://exsercise-tracker.onrender.com",]
 }))
 app.use(express.json())
 
